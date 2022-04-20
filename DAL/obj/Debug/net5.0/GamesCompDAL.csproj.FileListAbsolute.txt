@@ -1,0 +1,15 @@
+C:\Users\patri\source\repos\WebApplication1\DAL\obj\Debug\net5.0\GamesCompDAL.csproj.AssemblyReference.cache
+C:\Users\patri\source\repos\WebApplication1\DAL\obj\Debug\net5.0\GamesCompDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\patri\source\repos\WebApplication1\DAL\obj\Debug\net5.0\GamesCompDAL.AssemblyInfoInputs.cache
+C:\Users\patri\source\repos\WebApplication1\DAL\obj\Debug\net5.0\GamesCompDAL.AssemblyInfo.cs
+C:\Users\patri\source\repos\WebApplication1\DAL\obj\Debug\net5.0\GamesCompDAL.csproj.CoreCompileInputs.cache
+C:\Users\patri\source\repos\WebApplication1\DAL\bin\Debug\net5.0\GamesCompDAL.deps.json
+C:\Users\patri\source\repos\WebApplication1\DAL\bin\Debug\net5.0\GamesCompDAL.dll
+C:\Users\patri\source\repos\WebApplication1\DAL\bin\Debug\net5.0\ref\GamesCompDAL.dll
+C:\Users\patri\source\repos\WebApplication1\DAL\bin\Debug\net5.0\GamesCompDAL.pdb
+C:\Users\patri\source\repos\WebApplication1\DAL\bin\Debug\net5.0\DTOS.dll
+C:\Users\patri\source\repos\WebApplication1\DAL\bin\Debug\net5.0\DTOS.pdb
+C:\Users\patri\source\repos\WebApplication1\DAL\obj\Debug\net5.0\GamesCompDAL.csproj.CopyComplete
+C:\Users\patri\source\repos\WebApplication1\DAL\obj\Debug\net5.0\GamesCompDAL.dll
+C:\Users\patri\source\repos\WebApplication1\DAL\obj\Debug\net5.0\ref\GamesCompDAL.dll
+C:\Users\patri\source\repos\WebApplication1\DAL\obj\Debug\net5.0\GamesCompDAL.pdb

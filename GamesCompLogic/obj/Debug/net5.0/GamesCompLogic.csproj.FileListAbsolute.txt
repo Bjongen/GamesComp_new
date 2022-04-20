@@ -1,0 +1,15 @@
+C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\obj\Debug\net5.0\GamesCompLogic.csproj.AssemblyReference.cache
+C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\obj\Debug\net5.0\GamesCompLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\obj\Debug\net5.0\GamesCompLogic.AssemblyInfoInputs.cache
+C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\obj\Debug\net5.0\GamesCompLogic.AssemblyInfo.cs
+C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\obj\Debug\net5.0\GamesCompLogic.csproj.CoreCompileInputs.cache
+C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\bin\Debug\net5.0\GamesCompLogic.deps.json
+C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\bin\Debug\net5.0\GamesCompLogic.dll
+C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\bin\Debug\net5.0\ref\GamesCompLogic.dll
+C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\bin\Debug\net5.0\GamesCompLogic.pdb
+C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\bin\Debug\net5.0\DTOS.dll
+C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\bin\Debug\net5.0\DTOS.pdb
+C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\obj\Debug\net5.0\GamesCompLogic.csproj.CopyComplete
+C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\obj\Debug\net5.0\GamesCompLogic.dll
+C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\obj\Debug\net5.0\ref\GamesCompLogic.dll
+C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\obj\Debug\net5.0\GamesCompLogic.pdb
