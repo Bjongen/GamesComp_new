@@ -3,7 +3,7 @@ using GamesCompInterface.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
-
+using GamesCompDAL.Exceptions;
 namespace DAL
 {
     public class AccountDAL : IAccountDAL
@@ -47,6 +47,7 @@ namespace DAL
             const string sql = "INSERT INTO [Account] " +
                                "VALUES(@username, @password, @email, @phonenumber, @isadmin)";
 
+
             var RowsAffected = 0;
             using (var cmd = new SqlCommand(sql, connection))
             {
@@ -54,11 +55,27 @@ namespace DAL
                 cmd.Parameters.AddWithValue("@password", accountDto.Password);
                 cmd.Parameters.AddWithValue("@email", accountDto.Email);
                 cmd.Parameters.AddWithValue("@phonenumber", accountDto.PhoneNumber);
-                cmd.Parameters.AddWithValue("0", accountDto.IsAdmin);
+                cmd.Parameters.AddWithValue("@isadmin", accountDto.IsAdmin);
+                try
+                {
                 RowsAffected = cmd.ExecuteNonQuery();
+                }
+                catch (SqlException ex)
+                {
+                    if (ex.Message.Contains("Cannot insert duplicate key row in object 'dbo.Account' with unique index 'Unique_Username'."))
+                    {
+                        throw new AccountExistsException();
+                    }
+                    else
+                    {
+                        throw new Exception(ex.Message);
+                    }
+                }
+                finally
+                {
+                    connection.Close();
+                }
             }
-
-            connection.Close();
             return RowsAffected;
         }
 

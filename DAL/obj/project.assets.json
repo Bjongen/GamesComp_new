@@ -131,14 +131,14 @@
           }
         }
       },
-      "DTOS/1.0.0": {
+      "GamesCompDto/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/DTOS.dll": {}
+          "bin/placeholder/GamesCompDto.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DTOS.dll": {}
+          "bin/placeholder/GamesCompDto.dll": {}
         }
       }
     }
@@ -457,15 +457,15 @@
         "version.txt"
       ]
     },
-    "DTOS/1.0.0": {
+    "GamesCompDto/1.0.0": {
       "type": "project",
-      "path": "../DTOS/DTOS.csproj",
-      "msbuildProject": "../DTOS/DTOS.csproj"
+      "path": "../DTOS/GamesCompDto.csproj",
+      "msbuildProject": "../DTOS/GamesCompDto.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "DTOS >= 1.0.0",
+      "GamesCompDto >= 1.0.0",
       "System.Data.SqlClient >= 4.8.3"
     ]
   },
@@ -496,8 +496,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\patri\\source\\repos\\WebApplication1\\DTOS\\DTOS.csproj": {
-              "projectPath": "C:\\Users\\patri\\source\\repos\\WebApplication1\\DTOS\\DTOS.csproj"
+            "C:\\Users\\patri\\source\\repos\\WebApplication1\\DTOS\\GamesCompDto.csproj": {
+              "projectPath": "C:\\Users\\patri\\source\\repos\\WebApplication1\\DTOS\\GamesCompDto.csproj"
             }
           }
         }

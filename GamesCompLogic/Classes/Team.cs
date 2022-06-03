@@ -35,7 +35,6 @@ namespace GamesCompLogic.Classes
             TeamName = teamDto.TeamName;
             SkillRating = teamDto.SkillRating;
             Wins = teamDto.Wins;
-            _accounts = new List<Account>();
         }
 
         public void SetWins(int wins)
@@ -50,12 +49,13 @@ namespace GamesCompLogic.Classes
 
         public TeamDto ToDto()
         {
-            List<AccountDto> accountDtos = new();
-            foreach (var account in _accounts)
+            return new TeamDto
             {
-                accountDtos.Add(account.ToDto());
-            }
-            return new TeamDto { AccountDtos = accountDtos };
+                TeamId = TeamId,
+                TeamName = TeamName,
+                Wins = Wins,
+                SkillRating = SkillRating
+            };
         }
     }
 }

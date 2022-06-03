@@ -8,7 +8,8 @@ namespace GamesCompInterface.Dtos
 {
     public struct PouleDto
     {
-        public string Name;
+        public int PouleId;
+        public string PouleName;
         public int Score;
         public int Advantage;
 

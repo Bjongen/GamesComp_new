@@ -1,4 +1,6 @@
-﻿using GamesCompLogic.Classes;
+﻿using GamesCompDAL.IDAL;
+using GamesCompInterface.Dtos;
+using GamesCompLogic.Classes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,31 +11,59 @@ namespace GamesCompLogic.Containers
 {
     public class TournamentContainer
     {
-        public List<Tournament> _tournaments = new();
+        public List<Tournament> _tournaments;
+        private ITournamentDAL iTournamentDAL;
 
+        public TournamentContainer(ITournamentDAL iTournamentDAL)
+        {
+            this.iTournamentDAL = iTournamentDAL;
+            _tournaments = new List<Tournament>();
+
+        }
         public IReadOnlyCollection<Tournament> GetTournaments()
         {
             return _tournaments;
         }
 
-        public void CreateTournament(Tournament tournament)
+        public int CreateTournament(Tournament tournament)
         {
-            if (_tournaments.Contains(tournament))
+            TournamentDto tournamentDto = new TournamentDto()
             {
-                throw new ArgumentException("Tournament already exists");
-            }
-
-            _tournaments.Add(tournament);
+                Winner = tournament.Winner,
+                Game = tournament.Game,
+                Region = tournament.Region
+            };
+            _tournaments.Add(new Tournament(tournamentDto));
+            return iTournamentDAL.CreateTournament(tournamentDto);
         }
 
-        public void RemoveTournament(Tournament tournament)
+        public int RemoveTournament(Tournament tournament)
         {
-            if (!_tournaments.Contains(tournament))
+            TournamentDto tournamentDto = new TournamentDto()
             {
-                throw new ArgumentException("Can not remove non existing tournament");
+                Winner = tournament.Winner,
+                Game = tournament.Game,
+                Region = tournament.Region
+            };
+            return iTournamentDAL.DeleteTournament(tournamentDto);
+        }
+
+        public Tournament GetInfo(int id)
+        {
+            var dto = iTournamentDAL.GetInfo(id);
+            Tournament tournament = new(dto);
+            return tournament;
+        }
+        public IList<Tournament> GetAll()
+        {
+            var tournamentDtos = iTournamentDAL.GetALL();
+            List<Tournament> tournaments = new();
+            foreach (var dto in tournamentDtos)
+            {
+                tournaments.Add(new Tournament(dto));
             }
 
-            _tournaments.Remove(tournament);
+            return _tournaments = tournaments;
         }
     }
 }

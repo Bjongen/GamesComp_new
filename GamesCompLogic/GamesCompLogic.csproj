@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DTOS\DTOS.csproj" />
+    <ProjectReference Include="..\DAL\GamesCompDAL.csproj" />
+    <ProjectReference Include="..\DTOS\GamesCompDto.csproj" />
   </ItemGroup>
 
 </Project>

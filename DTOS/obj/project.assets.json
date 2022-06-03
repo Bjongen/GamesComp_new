@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\patri\\source\\repos\\WebApplication1\\DTOS\\DTOS.csproj",
-      "projectName": "DTOS",
-      "projectPath": "C:\\Users\\patri\\source\\repos\\WebApplication1\\DTOS\\DTOS.csproj",
+      "projectUniqueName": "C:\\Users\\patri\\source\\repos\\WebApplication1\\DTOS\\GamesCompDto.csproj",
+      "projectName": "GamesCompDto",
+      "projectPath": "C:\\Users\\patri\\source\\repos\\WebApplication1\\DTOS\\GamesCompDto.csproj",
       "packagesPath": "C:\\Users\\patri\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\patri\\source\\repos\\WebApplication1\\DTOS\\obj\\",
       "projectStyle": "PackageReference",

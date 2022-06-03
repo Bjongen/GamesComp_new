@@ -5,25 +5,15 @@ namespace GamesCompLogic
 {
     public class Account
     {
-        public int AccountId;
-        public string Name;
-        public string Password;
-        public string Email;
-        public string PhoneNumber;
-        public bool IsAdmin;
+        public int AccountId { get; set; }
+        public string Name { get; set; }
+        public string Password { get; set; }
+        public string Email { get; set; }
+        public string PhoneNumber { get; set; }
+        public bool IsAdmin { get; set; }
 
-        public Account(int accountId, string name, string password, string email, bool isAdmin)
+        public Account(string name, string password, string email, string phoneNumber, bool isAdmin)
         {
-            AccountId = accountId;
-            Name = name;
-            Password = password;
-            Email = email;
-            IsAdmin = isAdmin;
-        }
-
-        public Account(int accountId, string name, string password, string email, string phoneNumber, bool isAdmin)
-        {
-            AccountId = accountId;
             Name = name;
             Password = password;
             Email = email;

@@ -10,28 +10,30 @@ namespace GamesCompLogic.Classes
 {
     public class Match
     {
+        public int MatchId;
         public int FinalScore;
+        public int MatchName;
         public Team Team;
-        public DateTime MatchTime;
+        public DateTime MatchDate;
 
         public Match(Team team, DateTime matchtime)
         {
             Team = team;
-            MatchTime = matchtime;
+            MatchDate = matchtime;
         }
 
         public Match(int finalscore, Team team, DateTime matchtime)
         {
             FinalScore = finalscore;
             Team = team;
-            MatchTime = matchtime;
+            MatchDate = matchtime;
         }
 
         public Match(MatchDto matchDto)
         {
             FinalScore = matchDto.FinalScore;
             Team = new Team(matchDto.teamdto);
-            MatchTime = matchDto.Matchtime;
+            MatchDate = matchDto.MatchDate;
         }
 
         public MatchDto ToDto()
@@ -42,7 +44,7 @@ namespace GamesCompLogic.Classes
             {
                 FinalScore = FinalScore,
                 teamdto = teamDto,
-                Matchtime = MatchTime
+                MatchDate = MatchDate
             };
         }
 

@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GamesCompDAL.DALS
+namespace DAL
 {
-    class TeamDAL : ITeamDAL
+    public class TeamDAL : ITeamDAL
     {
         private const string Connectionstring =
             "Data Source=LAPTOP-39NSUQTM\\SQLEXPRESS;Initial Catalog = GamesComp; Integrated Security = True";
@@ -58,6 +58,55 @@ namespace GamesCompDAL.DALS
             }
             connection.Close();
             return RowsAffected;
+        }
+
+        public TeamDto GetById(int id)
+        {
+            using var connection = new SqlConnection(Connectionstring);
+            connection.Open();
+
+            const string sql = "Select * From [Team]" +
+                "Where TeamID = @TeamID";
+            TeamDto dto = new();
+            using (var cmd = new SqlCommand(sql, connection))
+            {
+                cmd.Parameters.AddWithValue("@TeamID", id);
+                using SqlDataReader rdr = cmd.ExecuteReader();
+                while (rdr.Read())
+                {
+                    dto = new()
+                    {
+                        TeamName = Convert.ToString(rdr["TeamName"]),
+                        Wins = Convert.ToInt32(rdr["Wins"]),
+                        SkillRating = Convert.ToInt32(rdr["SkillRating"])
+                    };
+                }
+
+            }
+            connection.Close();
+
+            return dto;
+        }
+            public List<int> GetId()
+        {
+            using var connection = new SqlConnection(Connectionstring);
+            connection.Open();
+
+            const string sql = "Select TeamID From [Team]";
+            using var cmd = new SqlCommand(sql, connection);
+
+            using SqlDataReader rdr = cmd.ExecuteReader();
+            List<int> ids = new List<int>();
+            while (rdr.Read())
+            {
+                TeamDto Dto = new TeamDto
+                {
+                    TeamId = Convert.ToInt32(rdr["TeamID"])
+                };
+                ids.Add(Dto.TeamId);
+            }
+            connection.Close();
+            return ids;
         }
 
         public int DeleteTeam(TeamDto teamDto)

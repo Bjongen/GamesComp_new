@@ -15,9 +15,9 @@ namespace GamesCompLogic.Classes
         public string Game;
         public string Region;
 
-        public List<Team> _teams = new();
-        public List<Poule> _poules = new();
-        public List<DEB> _debs = new();
+        public List<Team> _teams;
+        public List<Poule> _poules;
+        public List<DEB> _debs;
 
         public Tournament(int tournamentid, string game, string region, List<Team> teams, List<DEB> debs)
         {

@@ -7,9 +7,11 @@ C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\bin\Debug\net5.0\Game
 C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\bin\Debug\net5.0\GamesCompLogic.dll
 C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\bin\Debug\net5.0\ref\GamesCompLogic.dll
 C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\bin\Debug\net5.0\GamesCompLogic.pdb
-C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\bin\Debug\net5.0\DTOS.dll
-C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\bin\Debug\net5.0\DTOS.pdb
 C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\obj\Debug\net5.0\GamesCompLogic.csproj.CopyComplete
 C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\obj\Debug\net5.0\GamesCompLogic.dll
 C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\obj\Debug\net5.0\ref\GamesCompLogic.dll
 C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\obj\Debug\net5.0\GamesCompLogic.pdb
+C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\bin\Debug\net5.0\GamesCompDto.dll
+C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\bin\Debug\net5.0\GamesCompDto.pdb
+C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\bin\Debug\net5.0\GamesCompDAL.dll
+C:\Users\patri\source\repos\WebApplication1\GamesCompLogic\bin\Debug\net5.0\GamesCompDAL.pdb

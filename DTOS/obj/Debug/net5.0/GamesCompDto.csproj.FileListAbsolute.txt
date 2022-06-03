@@ -1,0 +1,12 @@
+C:\Users\patri\source\repos\WebApplication1\DTOS\bin\Debug\net5.0\GamesCompDto.deps.json
+C:\Users\patri\source\repos\WebApplication1\DTOS\bin\Debug\net5.0\GamesCompDto.dll
+C:\Users\patri\source\repos\WebApplication1\DTOS\bin\Debug\net5.0\ref\GamesCompDto.dll
+C:\Users\patri\source\repos\WebApplication1\DTOS\bin\Debug\net5.0\GamesCompDto.pdb
+C:\Users\patri\source\repos\WebApplication1\DTOS\obj\Debug\net5.0\GamesCompDto.csproj.AssemblyReference.cache
+C:\Users\patri\source\repos\WebApplication1\DTOS\obj\Debug\net5.0\GamesCompDto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\patri\source\repos\WebApplication1\DTOS\obj\Debug\net5.0\GamesCompDto.AssemblyInfoInputs.cache
+C:\Users\patri\source\repos\WebApplication1\DTOS\obj\Debug\net5.0\GamesCompDto.AssemblyInfo.cs
+C:\Users\patri\source\repos\WebApplication1\DTOS\obj\Debug\net5.0\GamesCompDto.csproj.CoreCompileInputs.cache
+C:\Users\patri\source\repos\WebApplication1\DTOS\obj\Debug\net5.0\GamesCompDto.dll
+C:\Users\patri\source\repos\WebApplication1\DTOS\obj\Debug\net5.0\ref\GamesCompDto.dll
+C:\Users\patri\source\repos\WebApplication1\DTOS\obj\Debug\net5.0\GamesCompDto.pdb

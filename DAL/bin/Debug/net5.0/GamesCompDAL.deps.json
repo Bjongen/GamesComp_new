@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "GamesCompDAL/1.0.0": {
         "dependencies": {
-          "DTOS": "1.0.0",
+          "GamesCompDto": "1.0.0",
           "System.Data.SqlClient": "4.8.3"
         },
         "runtime": {
@@ -90,9 +90,9 @@
         }
       },
       "System.Security.Principal.Windows/4.7.0": {},
-      "DTOS/1.0.0": {
+      "GamesCompDto/1.0.0": {
         "runtime": {
-          "DTOS.dll": {}
+          "GamesCompDto.dll": {}
         }
       }
     }
@@ -166,7 +166,7 @@
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
     },
-    "DTOS/1.0.0": {
+    "GamesCompDto/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

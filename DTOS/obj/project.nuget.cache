@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GNCrL9qMC4PlzCBkaPbs6AjvVJ60iudi0ZbFcV+lRnEAWkwswkIj6pktPY8y0VExGJ1T8tRCR+mWRDV/3+YMhA==",
+  "dgSpecHash": "ZJLytIUD5DW+ILwuhHNPprBq71mYdKdV7gw30gs9SxR/RnYAAoQzCriq6fcbrxD3Qk5Bb6d6mMTssjp5Lhtdqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\patri\\source\\repos\\WebApplication1\\DTOS\\DTOS.csproj",
+  "projectFilePath": "C:\\Users\\patri\\source\\repos\\WebApplication1\\DTOS\\GamesCompDto.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

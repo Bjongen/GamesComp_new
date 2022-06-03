@@ -61,9 +61,9 @@
       <Project>{e03b610e-cc92-407c-aede-534c4c6461b9}</Project>
       <Name>GamesCompDAL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DTOS\DTOS.csproj">
-      <Project>{8527ac2b-4200-49af-8337-37752229ed3d}</Project>
-      <Name>DTOS</Name>
+    <ProjectReference Include="..\DTOS\GamesCompDto.csproj">
+      <Project>{CC0D0DB6-0C80-4277-8F0F-74B22F5C1315}</Project>
+      <Name>GamesCompDto</Name>
     </ProjectReference>
     <ProjectReference Include="..\GamesCompLogic\GamesCompLogic.csproj">
       <Project>{009897bc-81a6-4d73-b31a-5fc200562a30}</Project>

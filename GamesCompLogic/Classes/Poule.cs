@@ -9,7 +9,8 @@ namespace GamesCompLogic.Classes
 {
     public class Poule
     {
-        public string Name;
+        public int PouleId;
+        public string PouleName;
         public int Score;
         public int Advantage;
 
@@ -17,7 +18,7 @@ namespace GamesCompLogic.Classes
 
         public Poule(string name, List<Match> matches)
         {
-            Name = name;
+            PouleName = name;
             _matches = matches;
             Score = 0;
             Advantage = 0;
@@ -25,7 +26,8 @@ namespace GamesCompLogic.Classes
 
         public Poule(PouleDto pouleDto)
         {
-            Name = pouleDto.Name;
+            PouleId = pouleDto.PouleId;
+            PouleName = pouleDto.PouleName;
             Score = pouleDto.Score;
             Advantage = pouleDto.Advantage;
 
@@ -51,7 +53,7 @@ namespace GamesCompLogic.Classes
             }
             return new PouleDto
             {
-                Name = Name,
+                PouleName = PouleName,
                 Score = Score,
                 Advantage = Advantage,
                 MatchDtos = matchDtos
